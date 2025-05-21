@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.stopwatch{
+    text-align: center;
+    background-color: rgb(178, 243, 243);
+    padding: 100px;
+    border-radius: 12px;
+}
+
+#display{
+    font-size: 4rem;
+    margin-bottom: 1.5rem;
+}
+
+.buttons button{
+    padding: 0.6rem 1.2rem;
+    text-decoration: none;
+    border: none;
+    font-size: large;
+    margin: 0 10px;
+    border-radius: 8px;
+    background-color: rgb(255, 177, 177);
+    font-weight: bolder;
+    transition: 0.3s ease;
+}
+
+.buttons button:hover{
+    transform: scale(1.2);
+    background-color: rgb(255, 0, 0);
+}
